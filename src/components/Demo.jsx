@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import React, {useState} from 'react';
 export const Demo = () =>{
   const [todos,setTodos] = useState({});
   fetch('https://jsonplaceholder.typicode.com/todos/1')
